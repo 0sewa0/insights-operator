@@ -1,0 +1,8 @@
+kind: CatalogSource
+apiVersion: operators.coreos.com/v1alpha1
+metadata:
+  name: insights-operator
+  namespace: openshift-insights
+spec:
+  sourceType: grpc
+  image: quay.io/0sewa0/io-bundle-index:latest

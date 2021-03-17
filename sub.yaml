@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: insights-operator-subscription
+  namespace: openshift-insights
+spec:
+  channel: stable
+  name: insights-operator
+  source: insights-operator
+  sourceNamespace: openshift-insights
